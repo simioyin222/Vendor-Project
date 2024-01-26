@@ -1,10 +1,16 @@
-namespace VendorOrderTracker.Tests;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using VendorOrderTracker.Models;
 
-[TestClass]
-public class UnitTest1
+namespace VendorOrderTracker.Tests.ModelTests
 {
-    [TestMethod]
-    public void TestMethod1()
+    [TestClass]
+    public class VendorTests
     {
+        [TestMethod]
+        public void VendorConstructor_CreatesInstanceOfVendor_Vendor()
+        {
+            Vendor newVendor = new Vendor("Suzie's Cafe", "Local cafe");
+            Assert.AreEqual(typeof(Vendor), newVendor.GetType());
+        }
     }
 }

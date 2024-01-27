@@ -8,5 +8,12 @@ namespace VendorOrderTracker.Controllers
   {
     [HttpGet("/vendors/{vendorId}/orders/new")]
     public ActionResult New(int vendorId)
+    {
+      Vendor foundVendor = Vendor.Find(vendorId);
+      return View(foundVendor);
+    }
+
+    [HttpPost("/vendors/{vendorId}/orders")]
+    public ActionResult Create(int vendorId, string orderTitle, string orderDescription, int orderPrice, string orderDate)
   }
 }

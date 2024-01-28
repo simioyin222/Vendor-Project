@@ -10,10 +10,6 @@ namespace VendorOrderTracker.Controllers
         public ActionResult New(int vendorId)
         {
             Vendor vendor = Vendor.Find(vendorId);
-            if (vendor == null)
-            {
-               return NotFound();
-            }
             return View(vendor);
         }
 

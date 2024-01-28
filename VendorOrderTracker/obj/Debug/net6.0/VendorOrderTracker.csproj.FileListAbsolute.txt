@@ -1,0 +1,8 @@
+C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\obj\Debug\net6.0\VendorOrderTracker.csproj.AssemblyReference.cache
+C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\obj\Debug\net6.0\VendorOrderTracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\obj\Debug\net6.0\VendorOrderTracker.AssemblyInfoInputs.cache
+C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\obj\Debug\net6.0\VendorOrderTracker.AssemblyInfo.cs
+C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\obj\Debug\net6.0\VendorOrderTracker.csproj.CoreCompileInputs.cache
+C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\obj\Debug\net6.0\VendorOrderTracker.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\obj\Debug\net6.0\VendorOrderTracker.RazorAssemblyInfo.cache
+C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\obj\Debug\net6.0\VendorOrderTracker.RazorAssemblyInfo.cs

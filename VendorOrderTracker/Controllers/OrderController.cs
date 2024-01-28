@@ -15,5 +15,11 @@ namespace VendorOrderTracker.Controllers
 
     [HttpPost("/vendors/{vendorId}/orders")]
     public ActionResult Create(int vendorId, string orderTitle, string orderDescription, int orderPrice, string orderDate)
+    {
+      Vendor foundVendor = Vendor.Find(vendorId);
+      Order newOrder = new Order(orderTitle, orderDescription, orderPrice, orderDate);
+      foundVendor.AddOrder(newOrder);
+      return RedirectToAction("Show", "Vendor", new { id = vendorId });
+    }
   }
 }

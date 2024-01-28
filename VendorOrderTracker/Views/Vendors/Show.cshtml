@@ -1,0 +1,16 @@
+@{
+  Layout = "_Layout";
+}
+
+<h2>@Model.Name</h2>
+<p>Description: @Model.Description</p>
+
+<h3>Orders</h3>
+<ul>
+@foreach (Order order in Model.Orders)
+{
+  <li>@order.Title - @order.Description</li>
+}
+</ul>
+
+<a href="/vendors/@Model.Id/orders/new">Add New Order</a>

@@ -21,7 +21,7 @@ namespace VendorOrderTracker.Tests.ModelTests
             string title = "Pastry Order";
             string description = "Croissants";
             int price = 18;
-            string date = "2024-01-24";
+            DateTime date = DateTime.Parse("2024-01-24");
             Order newOrder = new Order(title, description, price, date);
             List<Order> newList = new List<Order> { newOrder };
             Vendor newVendor = new Vendor("Suzie's Cafe", "Local cafe");

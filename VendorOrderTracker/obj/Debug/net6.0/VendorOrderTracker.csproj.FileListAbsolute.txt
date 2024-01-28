@@ -1,11 +1,3 @@
-C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\obj\Debug\net6.0\VendorOrderTracker.csproj.AssemblyReference.cache
-C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\obj\Debug\net6.0\VendorOrderTracker.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\obj\Debug\net6.0\VendorOrderTracker.AssemblyInfoInputs.cache
-C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\obj\Debug\net6.0\VendorOrderTracker.AssemblyInfo.cs
-C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\obj\Debug\net6.0\VendorOrderTracker.csproj.CoreCompileInputs.cache
-C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\obj\Debug\net6.0\VendorOrderTracker.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\obj\Debug\net6.0\VendorOrderTracker.RazorAssemblyInfo.cache
-C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\obj\Debug\net6.0\VendorOrderTracker.RazorAssemblyInfo.cs
 C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\bin\Debug\net6.0\appsettings.json
 C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\bin\Debug\net6.0\VendorOrderTracker.staticwebassets.runtime.json
@@ -14,6 +6,14 @@ C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\bi
 C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\bin\Debug\net6.0\VendorOrderTracker.runtimeconfig.json
 C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\bin\Debug\net6.0\VendorOrderTracker.dll
 C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\bin\Debug\net6.0\VendorOrderTracker.pdb
+C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\obj\Debug\net6.0\VendorOrderTracker.csproj.AssemblyReference.cache
+C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\obj\Debug\net6.0\VendorOrderTracker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\obj\Debug\net6.0\VendorOrderTracker.AssemblyInfoInputs.cache
+C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\obj\Debug\net6.0\VendorOrderTracker.AssemblyInfo.cs
+C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\obj\Debug\net6.0\VendorOrderTracker.csproj.CoreCompileInputs.cache
+C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\obj\Debug\net6.0\VendorOrderTracker.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\obj\Debug\net6.0\VendorOrderTracker.RazorAssemblyInfo.cache
+C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\obj\Debug\net6.0\VendorOrderTracker.RazorAssemblyInfo.cs
 C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\Simi\OneDrive\Desktop\Epicodus\VendorOrderTracker\VendorOrderTracker\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css

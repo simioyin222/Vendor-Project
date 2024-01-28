@@ -16,7 +16,7 @@ namespace VendorOrderTracker.Controllers
         [HttpPost("/vendors/{vendorId}/orders")]
         public ActionResult Create(int vendorId, string title, string description, double price, string date)
         {
-            DateTime orderDate = DateTime.Parse(date);  // Convert string to DateTime
+            DateTime orderDate = DateTime.Parse(date);
             Order newOrder = new Order(title, description, price, orderDate);
             Vendor vendor = Vendor.Find(vendorId);
             vendor.AddOrder(newOrder);

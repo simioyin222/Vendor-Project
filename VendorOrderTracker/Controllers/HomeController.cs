@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using VendorOrderTracker.Models;
+using Microsoft.Extensions.Logging;
 
 namespace VendorOrderTracker.Controllers;
 

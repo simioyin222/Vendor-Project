@@ -1,5 +1,6 @@
+@model VendorOrderTracker.Models.Vendor
 @{
-  Layout = "_Layout";
+    Layout = "_Layout";
 }
 
 <h2>@Model.Name</h2>
@@ -7,9 +8,14 @@
 
 <h3>Orders</h3>
 <ul>
-@foreach (Order order in Model.Orders)
+@foreach (var order in Model.Orders)
 {
-  <li>@order.Title - @order.Description</li>
+    <li>
+        Title: @order.Title <br>
+        Description: @order.Description <br>
+        Price: @order.Price <br>
+        Date: @order.Date.ToString("yyyy-MM-dd")
+    </li>
 }
 </ul>
 

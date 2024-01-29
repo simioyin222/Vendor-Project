@@ -14,12 +14,15 @@ namespace VendorOrderTracker.Controllers
         }
 
         [HttpPost("/vendors/{vendorId}/orders")]
-        public ActionResult Create(int vendorId, string title, string description, double price, string date)
+        public ActionResult Create(int vendorId, string title, string description, double price, string orderDate)
         {
-            DateTime orderDate = DateTime.Parse(date);
-            Order newOrder = new Order(title, description, price, orderDate);
-            Vendor vendor = Vendor.Find(vendorId);
-            vendor.AddOrder(newOrder);
+            if (!string.IsNullOrEmpty(orderDate))
+            {
+                DateTime parsedDate = DateTime.Parse(orderDate);
+                Order newOrder = new Order(title, description, price, parsedDate);
+                Vendor vendor = Vendor.Find(vendorId);
+                vendor.AddOrder(newOrder);
+            }
             return RedirectToAction("Show", "Vendor", new { id = vendorId });
         }
     }

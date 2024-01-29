@@ -26,7 +26,7 @@ namespace VendorOrderTracker.Controllers
             }
             else
             {
-                // Handle the case where date parsing fails
+                
                 return View("NewOrder", Vendor.Find(vendorId));
             }
         }

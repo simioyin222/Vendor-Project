@@ -16,7 +16,7 @@ namespace VendorOrderTracker.Controllers
         [HttpGet("/vendors/new")]
         public ActionResult New()
         {
-            return View();
+            return View("NewVendor"); // Updated to the new view name
         }
 
         [HttpPost("/vendors")]
@@ -26,7 +26,6 @@ namespace VendorOrderTracker.Controllers
             return RedirectToAction("Index");
         }
 
-        
         [HttpGet("/vendors/{id}")]
         public ActionResult Show(int id)
         {

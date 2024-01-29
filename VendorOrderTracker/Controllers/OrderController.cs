@@ -10,7 +10,7 @@ namespace VendorOrderTracker.Controllers
         public ActionResult New(int vendorId)
         {
             Vendor vendor = Vendor.Find(vendorId);
-            return View("New", vendor);
+            return View("NewOrder", vendor);
         }
 
         [HttpPost("/vendors/{vendorId}/orders")]

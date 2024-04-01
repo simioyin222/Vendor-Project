@@ -37,9 +37,18 @@ namespace VendorOrderTracker.Controllers
             return View(foundVendor);
         }
 
-        [HttpGet("/vendors/delete/{id}")]
-public ActionResult Delete(int id) {
+        [HttpPost("/vendors/delete/{id}")]
+public ActionResult Delete(int id)
+{
+    var vendorToDelete = Vendor.Find(id);
+    if (vendorToDelete == null)
+    {
+        // Vendor not found, redirect back to the details page
+        return RedirectToAction("Show", new { id = id });
+    }
+
     Vendor.Delete(id);
+    // Assuming you have an Index view to list all vendors
     return RedirectToAction("Index");
 }
     }

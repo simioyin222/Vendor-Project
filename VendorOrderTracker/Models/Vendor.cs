@@ -31,5 +31,12 @@ namespace VendorOrderTracker.Models
         {
             return _instances[searchId - 1];
         }
+
+        public static void Delete(int id) {
+    var vendorToDelete = _instances.FirstOrDefault(v => v.Id == id);
+    if (vendorToDelete != null) {
+        _instances.Remove(vendorToDelete);
+    }
+}
     }
 }

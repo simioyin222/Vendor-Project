@@ -36,5 +36,11 @@ namespace VendorOrderTracker.Controllers
             }
             return View(foundVendor);
         }
+
+        [HttpGet("/vendors/delete/{id}")]
+public ActionResult Delete(int id) {
+    Vendor.Delete(id);
+    return RedirectToAction("Index");
+}
     }
 }

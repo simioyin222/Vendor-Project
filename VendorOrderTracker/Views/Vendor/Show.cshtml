@@ -20,3 +20,8 @@
 </ul>
 
 <a href="/vendors/@Model.Id/orders/new">Add New Order</a>
+
+<!-- Delete button -->
+<form method="post" action="/vendors/delete/@Model.Id" onsubmit="return confirm('Are you sure you want to delete this vendor?');">
+    <input type="submit" value="Delete Vendor" class="btn btn-danger" />
+</form>

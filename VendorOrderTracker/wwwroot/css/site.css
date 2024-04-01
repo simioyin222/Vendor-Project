@@ -55,19 +55,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar {
-  background-color: var(--primary-color);
+  background-color: #005792;
   color: #005792;
 }
 
 .nav-link {
-  color: #005792 !important;
+  color: #f15a29 !important;
 }
 
 .navbar-brand {
-  color: #005792 !important;
+  color: #f15a29 !important;
 }
 
 .btn-primary {
   background-color: var(--secondary-color);
   border-color: var(--secondary-color);
+}
+
+.btn:hover {
+  opacity: 0.8;
 }

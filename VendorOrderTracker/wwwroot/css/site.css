@@ -16,3 +16,58 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+:root {
+  --primary-color: #005792; /* Deep Blue */
+  --secondary-color: #f15a29; /* Vibrant Coral */
+  --background-color: #f4f4f4; /* Light Grey Background */
+  --text-color: #333333; /* Dark Grey Text */
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arial', sans-serif;
+  color: var(--primary-color);
+}
+
+/* Enhancements for consistency and layout */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: var(--primary-color);
+  color: #005792;
+}
+
+.nav-link {
+  color: #005792 !important;
+}
+
+.navbar-brand {
+  color: #005792 !important;
+}
+
+.btn-primary {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
